@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(red, black);
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+#tl1{
+    font-size: larger;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#tl2{
+    height: 75;
+    width: 75%;
+    justify-self: left;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+#pagenav{
+    height: 57px;
+    width: 300px;
+    border: 5px;
+    display: flex;
+    justify-content:space-around;
+}
+.button{
+    align-self: flex-end;
+    color: white;
+}
+a:active{
+    color: red;
+}
+
+#home-back{
+    width: 45%;
+    float: right;
+    margin-right: 85px;
+}
+.home-content{
+    margin-left: 125px;
+    width: 300px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.home-title{
+    margin-left: 55px;
+    color: white;
+}
+#home{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, red);
+    height: 742px;
+}
+
+#equipment-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.equipment-image{
+    width: 400px;
+    margin: 45px;
+    align-self: flex-start;
+}
+.equipment-text{
+    width: 420px;
+    margin: 35px;
+    align-self: flex-start;
+    color: white;
+}
+#equipment{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(red, black);
+}
+
+#player-pc{
+    width: 600px;
+    background-color: maroon;
+    color: white;
+}
+#player-dm{
+margin-left: 51%;
+    width: 600px;
+    background-color: maroon;
+    color: white;
+}
+#player-wt{
+    width: 600;
+    background-color: maroon;
+    color: white;
+}
+#players{
+    background: linear-gradient(black, red);
+    margin: 0;
+    padding: 0;
+    height: 110%;
+}
+
+footer{
+    background-color: red;
+    height: 2rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+footer p{
+    margin: 0;
+    text-align: right;
+    font-size: smaller;
+}
